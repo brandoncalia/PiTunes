@@ -52,3 +52,4 @@ Some things I'd like to add to what I have so far:
   * Scrolling text / an updating feed 
 * A better way to deal with the refresh screen
 * Different ways of storing data over time
+* Need to implement better error catching, if connection errors occur
