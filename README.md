@@ -7,16 +7,11 @@ The GUI displays your top three artists and top three songs of the last week (re
 
 ### Implementation
 
-<img width="500" alt="interface" src="https://user-images.githubusercontent.com/41372799/204268602-99e240a8-bf9b-480f-8997-af0d93ca844d.jpg">
+<img width="476" alt="interface" src="https://user-images.githubusercontent.com/41372799/204268602-99e240a8-bf9b-480f-8997-af0d93ca844d.jpg"> <img width="500" alt="interface" src="https://user-images.githubusercontent.com/41372799/204269091-bd15431c-787f-4078-8942-9dc08c8101f5.jpg">
 
 ### GUI
 
 ![newgui](https://user-images.githubusercontent.com/41372799/200444761-5a4ea4de-d721-4417-aa74-f063b46428aa.JPG)
-
-### Refresh screen
-
-![2img](https://user-images.githubusercontent.com/41372799/199851064-65ebe811-c634-46af-9b97-28cf13776e50.jpg)
-
 
 
 ## :cyclone: Requirements
