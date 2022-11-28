@@ -7,7 +7,7 @@ The GUI displays your top three artists and top three songs of the last week (re
 
 ### Implementation
 
-![2IMG_2060](https://user-images.githubusercontent.com/41372799/199850686-5adb613b-32bb-4e2e-952c-b0a475cf041c.jpg)
+<img width="500" alt="interface" src="https://user-images.githubusercontent.com/41372799/204268602-99e240a8-bf9b-480f-8997-af0d93ca844d.jpg">
 
 ### GUI
 
