@@ -11,8 +11,7 @@ The GUI displays your top three artists and top three songs of the last week (re
 
 ### GUI
 
-![newgui](https://user-images.githubusercontent.com/41372799/200444761-5a4ea4de-d721-4417-aa74-f063b46428aa.JPG)
-
+<img width="700" alt="interface" src="https://user-images.githubusercontent.com/41372799/204553427-38bc9abc-2863-4291-9397-f3e7b2acc661.JPG">
 
 ## :cyclone: Requirements
 The following are needed to set up the project as shown:
