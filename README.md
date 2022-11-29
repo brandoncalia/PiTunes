@@ -47,3 +47,4 @@ Some things I'd like to add to what I have so far:
 * A better way to deal with the refresh screen
 * Different ways of storing data over time
 * Need to implement better error catching, if connection errors occur
+* UPDATE: there is an error with song names that contain certain special characters. This won't take long to fix. 
