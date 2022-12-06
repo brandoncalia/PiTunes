@@ -31,11 +31,20 @@ The project is two scripts (Tkinter windows) that run simultaneously. This is so
 
 1. Enter your keys/passwords/database info into the code
 2. Ensure your file path is correctly setup - `PiTunes.py` and `refresh.py` should be contained within the main folder, along with an 'assets' folder containing the necessary images
-3. Open a terminal from the folder and run:
+3. Install all the necessary packages
+4. Open a terminal from the folder and run:
     * `python refresh.py`
-4. Tab out and open a separate terminal to run:
+5. Tab out and open a separate terminal to run:
     * `python PiTunes.py`
-5. Tab the windows such that gui is laid over the refresh window 
+6. Tab the windows such that gui is laid over the refresh window 
+
+## :anger: Challenges
+* I honestly don't remember how I got this idea, nor how I figured it would be possible. Every step of the way was just constant challenges, so I won't list all them here. For every one thing I figured out, two more problems came up. That being said, it was a lot of fun
+* Designing the interface was painstaking. Actually creating something that looked aesthetically pleasing took long enough, and then making pixel-by-pixel adjustments to each and every widget was the nail in the coffin
+* Originally I intended to only use the Pylast package to get Spotify listening data, but later found out it doesn't really support fetching album/cover art for songs. Luckily I found Spotipy, a package that works with the Spotify API. That meant I was able to take the info from LastFM and run it through a search function with the Spotify artwork to find the corresponding cover art for the song or artist
+* That being said, both these packages had little to no useful documentation which meant I had to scroll through a ton of old forum posts and sometimes even the source code to try and figure out which functions do what and what parameters they take. The same was true for the package I used to get a MySQL database connection working to my PC
+* If there was a better/simple way to round image corners, I couldn't find it
+* Finally, I had the code working the way I wanted on my PC. Putting it on the Raspberry Pi was a totally different game. Once I actually saw the way it was going to be physically implemented, I had to make so many changes for things I just hadn't accounted for when it was only something I was programming in a terminal on my laptop. 
 
 
 ## :rocket: Future improvements
@@ -47,4 +56,4 @@ Some things I'd like to add to what I have so far:
 * A better way to deal with the refresh screen
 * Different ways of storing data over time
 * Need to implement better error catching, if connection errors occur
-* UPDATE: there is an error with song names that contain certain special characters. This won't take long to fix. 
+* UPDATE: there is an error with song names that contain certain special characters. This won't take long to fix, I just have to add some special cases
