@@ -44,7 +44,7 @@ The project is two scripts (Tkinter windows) that run simultaneously. This is so
 * Originally I intended to only use the Pylast package to get Spotify listening data, but later found out it doesn't really support fetching album/cover art for songs. Luckily I found Spotipy, a package that works with the Spotify API. That meant I was able to take the info from LastFM and run it through a search function with the Spotify artwork to find the corresponding cover art for the song or artist
 * That being said, both these packages had little to no useful documentation which meant I had to scroll through a ton of old forum posts and sometimes even the source code to try and figure out which functions do what and what parameters they take. The same was true for the package I used to get a MySQL database connection working to my PC
 * If there was a better/simple way to round image corners, I couldn't find it
-* Finally, I had the code working the way I wanted on my PC. Putting it on the Raspberry Pi was a totally different game. Once I actually saw the way it was going to be physically implemented, I had to make so many changes for things I just hadn't accounted for when it was only something I was programming in a terminal on my laptop. 
+* Finally, I had the code working the way I wanted on my PC. Putting it on the Raspberry Pi was a totally different game. Once I actually saw the way it was going to be physically implemented, I had to make so many changes for things I just hadn't accounted for when it was only something I was programming in a terminal on my laptop
 
 
 ## :rocket: Future improvements
