@@ -117,7 +117,13 @@ while True:
     # Retrieve and store top 3 tracks
     tracks = user.get_top_tracks(period=pylast.PERIOD_7DAYS, limit=3)
     for track in tracks:
-        topSong = "'" + str(track.item.title) + ' - ' + str(track.item.artist) + "'"
+        songTitle = f'{track.item.title}'
+        if "'" in songTitle:
+            songTitle = songTitle.replace("'", "")
+        songArtist = f'{track.item.artist}'
+        if "'" in songArtist:
+            songArtist = songArtist.replace("'", "")
+        topSong = "'" + songTitle + ' - ' + songArtist + "'"
         topSongs.append(topSong)
         results = sp.search(q=topSong, limit=1)
         for idx, trackName in enumerate(results['tracks']['items']):
@@ -128,7 +134,10 @@ while True:
     # Retrieve and store top 3 artists
     artists = user.get_top_artists(period=pylast.PERIOD_7DAYS, limit=3)
     for artist in artists:
-        topArtist = "'" + artist.item.name + "'"
+        topArtist = artist.item.name
+        if "'" in topArtist:
+            topArtist = topArtist.replace("'", "")
+        topArtist = "'" + topArtist + "'"
         topArtists.append(topArtist)
         results = sp.search(q='artist:' + topArtist, type='artist')
         artist = results['artists']['items'][0]
