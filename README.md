@@ -9,7 +9,7 @@ The software displays your top three artists and top three songs of the last wee
 
 <img width="600" alt="interface" src="https://user-images.githubusercontent.com/41372799/204268602-99e240a8-bf9b-480f-8997-af0d93ca844d.jpg"> <img width="600" alt="interface" src="https://user-images.githubusercontent.com/41372799/204269091-bd15431c-787f-4078-8942-9dc08c8101f5.jpg">
 
-### GUI
+### Interface
 
 <img width="700" alt="interface" src="https://user-images.githubusercontent.com/41372799/204553427-38bc9abc-2863-4291-9397-f3e7b2acc661.JPG">
 
